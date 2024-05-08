@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cuentame-rest" />
         <module name="skeletor-core" />
         <module name="skeletor-rest" />
+        <module name="cuentame-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,5 +18,11 @@
       <module name="skeletor-core" target="1.8" />
       <module name="skeletor-rest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cuentame-core" options="-parameters" />
+      <module name="cuentame-rest" options="-parameters" />
+    </option>
   </component>
 </project>

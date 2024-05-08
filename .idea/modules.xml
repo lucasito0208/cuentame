@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/skeletor.iml" filepath="$PROJECT_DIR$/skeletor.iml" />
       <module fileurl="file://$PROJECT_DIR$/skeletor-core/skeletor-core.iml" filepath="$PROJECT_DIR$/skeletor-core/skeletor-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/skeletor-core/skeletor-core.iml" filepath="$PROJECT_DIR$/skeletor-core/skeletor-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/skeletor-rest/skeletor-rest.iml" filepath="$PROJECT_DIR$/skeletor-rest/skeletor-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/skeletor-rest/skeletor-rest.iml" filepath="$PROJECT_DIR$/skeletor-rest/skeletor-rest.iml" />
     </modules>
   </component>
