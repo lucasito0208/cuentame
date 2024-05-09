@@ -1,5 +1,5 @@
 # Active default profile
-spring.profiles.active: @profile-active@
+spring.profiles.active: dev
 
 # Disable banner at project start
 spring.main.banner-mode: @spring-banner@

@@ -5,7 +5,7 @@ profile-active: devLocal01
 spring-banner: "off"
 
 # Data source config
-datasource-url: jdbc:sqlserver://192.168.99.104:1433;database=master;schema=@project.parent.artifactId@;
+datasource-url: jdbc:sqlserver://localhost:1433;database=master;schema=@project.parent.artifactId@;
 datasource-username: sa
 datasource-password: Aa12Bb34*
 datasource-driver: com.microsoft.sqlserver.jdbc.SQLServerDriver

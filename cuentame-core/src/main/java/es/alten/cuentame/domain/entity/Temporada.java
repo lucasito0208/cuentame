@@ -21,10 +21,10 @@ public class Temporada extends ElvisEntity {
     private String resumen;
 
     @OneToMany(mappedBy = "temporada", cascade = CascadeType.ALL)
-    private List<Personaje> personajes;
+    private List<Episodio> episodios;
 
     private Temporada() {
-        this.personajes = new ArrayList<>();
+        this.episodios = new ArrayList<>();
     }
 
 

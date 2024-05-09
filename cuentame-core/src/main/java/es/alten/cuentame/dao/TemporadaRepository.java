@@ -15,7 +15,4 @@ public interface TemporadaRepository extends
         QuerydslBinderCustomizer<QTemporada>
 {
 
-    Temporada findByN_temp(Integer n_temp);
-
-    List<Temporada> findAllTemporadas();
 }

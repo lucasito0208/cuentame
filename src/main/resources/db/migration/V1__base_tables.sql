@@ -10,8 +10,8 @@ CREATE TABLE ${sch}.users (
   update_time    DATETIME     NULL     DEFAULT NULL,
   update_user_id BIGINT       NULL     DEFAULT NULL,
   CONSTRAINT users_unq_01 UNIQUE (email),
-  CONSTRAINT users_fk_01 FOREIGN KEY (create_user_id) REFERENCES sonar_dev.users (id),
-  CONSTRAINT users_fk_02 FOREIGN KEY (update_user_id) REFERENCES sonar_dev.users (id)
+  CONSTRAINT users_fk_01 FOREIGN KEY (create_user_id) REFERENCES ${sch}.users (id),
+  CONSTRAINT users_fk_02 FOREIGN KEY (update_user_id) REFERENCES ${sch}.users (id)
 );
 
 INSERT INTO ${sch}.users (email,password,deleted,create_time,create_user_id,update_time,update_user_id)

@@ -1,2 +1,6 @@
-package es.alten.cuentame.dto;public class ActorDTO {
+package es.alten.cuentame.dto;
+
+public class ActorDTO {
+
+
 }

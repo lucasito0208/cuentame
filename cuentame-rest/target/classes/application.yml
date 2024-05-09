@@ -1,11 +1,11 @@
 # Active default profile
-spring.profiles.active: devLocal01
+spring.profiles.active: dev
 
 # Disable banner at project start
 spring.main.banner-mode: "off"
 
 # Data source config
-spring.datasource.url: jdbc:sqlserver://192.168.99.104:1433;database=master;schema=cuentame;
+spring.datasource.url: jdbc:sqlserver://localhost:1433;database=master;schema=cuentame;
 spring.datasource.username: sa
 spring.datasource.password: Aa12Bb34*
 spring.datasource.driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver

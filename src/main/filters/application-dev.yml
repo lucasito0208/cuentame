@@ -5,7 +5,7 @@ profile-active: dev
 spring-banner: "off"
 
 # Data source config
-datasource-url: jdbc:sqlserver://192.168.99.100:1433;database=master;schema=@project.parent.artifactId@;
+datasource-url: jdbc:sqlserver://localhost:1433;database=model;schema=cuentame;
 datasource-username: sa
 datasource-password: Aa12Bb34*
 datasource-driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
@@ -35,7 +35,7 @@ rest-context-path: /@project.parent.artifactId@-rest
 
 # Log config
 logging-path: /opt/tomcat/logs
-logging-file: @logging-path@/@project.parent.artifactId@.log
+logging-file: /opt/tomcat/logs/@project.parent.artifactId@.log
 logging-level-root: INFO
 logging-level-hibernate-sql: DEBUG
 logging-level-hibernate-descriptor: DEBUG

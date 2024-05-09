@@ -22,8 +22,8 @@ public class Episodio extends ElvisEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_episodio;
 
-    @OneToMany
-    private Temporada n_temp;
+    @ManyToOne
+    private Temporada temporada;
 
     private int num_episodio;
 
