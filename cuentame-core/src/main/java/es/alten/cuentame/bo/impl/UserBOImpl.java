@@ -4,7 +4,8 @@ import es.alten.cuentame.bo.UserBO;
 import es.alten.cuentame.dao.UserRepository;
 import es.alten.cuentame.domain.QUser;
 import es.alten.cuentame.domain.User;
-import es.alten.cuentame.dto.UserFilterDTO;
+import es.alten.cuentame.dto.filters.UserFilterDTO;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

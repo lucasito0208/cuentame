@@ -2,7 +2,7 @@ package es.alten.cuentame.bo;
 
 import es.alten.cuentame.domain.entity.Personaje;
 import es.alten.cuentame.domain.entity.QPersonaje;
-import es.alten.cuentame.dto.PersonajeFilterDTO;
+import es.alten.cuentame.dto.filters.PersonajeFilterDTO;
 
 public interface PersonajeBO extends GenericCRUDService<Personaje, Integer, QPersonaje, PersonajeFilterDTO> {
 

@@ -5,7 +5,8 @@ import com.querydsl.core.types.dsl.EntityPathBase;
 import es.alten.cuentame.bo.GenericCRUDService;
 import es.alten.cuentame.dao.ElvisBaseRepository;
 import es.alten.cuentame.domain.ElvisEntity;
-import es.alten.cuentame.dto.BaseFilterDTO;
+import es.alten.cuentame.dto.filters.BaseFilterDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

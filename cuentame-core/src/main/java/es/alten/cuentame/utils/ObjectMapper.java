@@ -29,7 +29,7 @@ public class ObjectMapper implements Serializable {
   private static final ObjectMapper instance;
 
   /** Internal Dozer mapper. */
-  private static Mapper mapper = new DozerBeanMapper();
+  public static Mapper mapper = new DozerBeanMapper();
 
   /* Class initialization. */
   static {

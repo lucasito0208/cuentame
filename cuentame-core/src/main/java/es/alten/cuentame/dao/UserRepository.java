@@ -10,6 +10,7 @@ import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;
  * Repository interface for {@link User} instances. The interface is used to declare so called query
  * methods, methods to retrieve single entities or collections of them.
  */
+@SuppressWarnings("unused")
 public interface UserRepository
     extends ElvisBaseRepository<User, Long, QUser>,
         JpaSpecificationExecutor<User>,
@@ -17,4 +18,6 @@ public interface UserRepository
         QuerydslBinderCustomizer<QUser> {
 
   User findByEmail(String email);
+
+
 }

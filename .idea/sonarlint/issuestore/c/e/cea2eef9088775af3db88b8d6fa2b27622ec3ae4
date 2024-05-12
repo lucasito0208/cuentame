@@ -1,0 +1,7 @@
+
+•
+java:S1104 "RMake mapper a static final constant or non-public and provide accessors if needed.(ò¸’8Š×”¾ö1J$a9512b9d-a67a-4aa5-b1fb-ccb1387def0a
+o
+java:S1444 ",Make this "public static mapper" field final(ò¸’8‹×”¾ö1J$ef77b668-17b3-44e5-91fc-3f1e962a60d7
+Ú
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ŒÇË¤ûÿÿÿÿJ$5d754ab8-92c7-4774-af5e-6e43c4743be7

@@ -3,8 +3,9 @@ package es.alten.cuentame.web;
 import com.querydsl.core.types.dsl.EntityPathBase;
 import es.alten.cuentame.bo.GenericCRUDService;
 import es.alten.cuentame.domain.ElvisEntity;
-import es.alten.cuentame.dto.BaseFilterDTO;
 import es.alten.cuentame.dto.ElvisBaseDTO;
+import es.alten.cuentame.dto.filters.BaseFilterDTO;
+
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;

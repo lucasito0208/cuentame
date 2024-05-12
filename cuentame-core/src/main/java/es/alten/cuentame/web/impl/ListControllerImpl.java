@@ -3,7 +3,7 @@ package es.alten.cuentame.web.impl;
 import com.querydsl.core.types.dsl.EntityPathBase;
 import es.alten.cuentame.bo.GenericCRUDService;
 import es.alten.cuentame.domain.ElvisEntity;
-import es.alten.cuentame.dto.BaseFilterDTO;
+import es.alten.cuentame.dto.filters.BaseFilterDTO;
 import es.alten.cuentame.utils.PageWrapper;
 import es.alten.cuentame.web.ListController;
 import org.slf4j.Logger;

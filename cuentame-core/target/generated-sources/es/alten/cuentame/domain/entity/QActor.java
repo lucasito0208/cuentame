@@ -36,7 +36,7 @@ public class QActor extends EntityPathBase<Actor> {
 
     public final StringPath nombre = createString("nombre");
 
-    public final ComparablePath<Character> sexo = createComparable("sexo", Character.class);
+    public final EnumPath<Genero> sexo = createEnum("sexo", Genero.class);
 
     public QActor(String variable) {
         this(Actor.class, forVariable(variable), INITS);

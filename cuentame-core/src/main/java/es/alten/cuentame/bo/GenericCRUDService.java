@@ -3,7 +3,8 @@ package es.alten.cuentame.bo;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.EntityPathBase;
 import es.alten.cuentame.domain.ElvisEntity;
-import es.alten.cuentame.dto.BaseFilterDTO;
+import es.alten.cuentame.dto.filters.BaseFilterDTO;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

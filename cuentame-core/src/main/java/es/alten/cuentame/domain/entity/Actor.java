@@ -27,6 +27,7 @@ public class Actor extends ElvisEntity {
 
     private String lugarNacimiento;
 
-    private char sexo;
+    @Enumerated(EnumType.STRING)
+    private Genero sexo;
 
 }
